@@ -15,13 +15,13 @@
   <div class="box">
     <h2>Link Sedang Disiapkan</h2>
     <p>File akan terbuka otomatis dalam:</p>
-    <div id="timer">2</div>
+    <div id="timer">1</div>
     <p>Jangan tutup halaman ini</p>
     <a id="manualBtn" class="btn" href="#">Klik Disini Jika Tidak Otomatis</a>
   </div>
   <script>
     const tujuan = new URLSearchParams(window.location.search).get('to');
-    let detik = 2;
+    let detik = 1;
     const timer = document.getElementById('timer');
     const btn = document.getElementById('manualBtn');
     const countdown = setInterval(() => {
